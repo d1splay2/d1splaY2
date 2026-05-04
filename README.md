@@ -26,6 +26,7 @@ From users (API's) data get pushed to message broker, transformed in micro batch
 
 * [Apache Spark (Streaming)](https://spark.apache.org/docs/latest/streaming-programming-guide.html) - micro-batch streaming
 * [MongoDB](https://github.com/mongodb/mongo) - NoSQL storage
+* [Kafka](https://github.com/apache/kafka) - message broker
 * [Flask](https://github.com/pallets/flask/) - web-framework
 * [Python](https://github.com/python/cpython) - glueing all pieces and writing logic
 * [Docker](https://www.docker.com) - containerization
