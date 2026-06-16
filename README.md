@@ -6,7 +6,7 @@ This just small descriptions of a projects and tools that used in this projects.
 
 ## [Spark-On-Demand](https://github.com/d1splay2/Spark-On-Demand)
 
-Scheduled job on Airflow spawn Spark Job on Kuberentes Cluster, read and transform different formats of data in 1 unified format and ensure consistency of data get uploaded in other S3 object storage. In the process of transforming data all logs get sinked, both stdout and Spark Structured logs from all elapsed jobs and can be accessed with Spark History Server that pointed to all logs.
+Scheduled job on Airflow spawn Spark Job on Kuberentes Cluster, read and transform different formats of data in 1 unified format and ensure consistency of data, get uploaded in other S3 object storage in the end. In the process of transforming data all logs get sinked, both stdout and Spark Structured logs from all elapsed jobs and can be accessed with Spark History Server that works independent from Spark active jobs status
 
 * [Kubernetes (Kind)](https://kind.sigs.k8s.io) - local K8s cluster
 * [RustFS](https://github.com/rustfs/rustfs) - S3-compatible object storage
